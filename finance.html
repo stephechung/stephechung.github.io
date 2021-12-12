@@ -69,8 +69,6 @@
         const main = new Runtime().module(notebook, name => {
             if (name === "dmv_finance") return Inspector.into("#myChart1")();
             if (name === "finance_distribution") return Inspector.into("#myChart2")();
-            // return new Inspector(document.querySelector("#myChart3"));
-            // });
         });
     </script>
 </html>

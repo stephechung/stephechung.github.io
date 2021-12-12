@@ -99,7 +99,7 @@
         const main = new Runtime().module(notebook, name => {
             if (name === "viewof n") return Inspector.into("#myInput1")();
             if (name === "viewof facet") return Inspector.into("#myInput2")();
-            if (name === "chart3") return Inspector.into("#myChart1")();
+            if (name === "price_distribution") return Inspector.into("#myChart1")();
             if (name === "viewof montTable") return Inspector.into("#myTable1")();
         });
     </script>
