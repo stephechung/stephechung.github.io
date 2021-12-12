@@ -56,30 +56,25 @@
                 <h1 class="h2">Visualization</h1>
             </div>
 
-            <div class="my-4 w-100" id="myChart3"></div>
+            <div class="my-4 w-100" id="myChart1"></div>
 
-<!--            <h2>Section title</h2>-->
-<!--            <div class="table-responsive">-->
+            <!--            <h2>Section title</h2>-->
+            <!--            <div class="table-responsive">-->
 
-            </div>
         </main>
     </div>
+</div>
 </div>
 
 
 </body>
 
 <script type="module">
-    // Load the Observable runtime and inspector.
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-
-    // Your notebook, compiled as an ES module.
     import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
 
-    // Load the notebook, observing its cells with a default Inspector
-    // that simply renders the value of each cell into the provided DOM node.
     const main = new Runtime().module(notebook, name => {
-        if (name === "map2") return Inspector.into("#myChart3")();
+        if (name === "migration") return Inspector.into("#myChart1")();
         // return new Inspector(document.querySelector("#myChart3"));
         // });
     });
