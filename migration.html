@@ -60,8 +60,8 @@
             <div class="my-4 w-100" id="myInput2"></div>
             <div class="my-4 w-100" id="myChart1"></div>
 
-            <!--            <h2>Section title</h2>-->
-            <!--            <div class="table-responsive">-->
+            <h2>Section title</h2>
+            <div class="table-responsive" id="myTable1">
 
         </main>
     </div>
@@ -78,7 +78,8 @@
     const main = new Runtime().module(notebook, name => {
         if (name === "viewof region") return Inspector.into("#myInput1")();
         if (name === "viewof migrationYear") return Inspector.into("#myInput2")();
-        if (name === "chart3") return Inspector.into("#myChart1")();
+        if (name === "map2") return Inspector.into("#myChart1")();
+        // if (name === "map2") return Inspector.into("#myTable1")();
     })
 </script>
 </html>
