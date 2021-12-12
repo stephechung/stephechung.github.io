@@ -56,6 +56,8 @@
                 <h1 class="h2">Visualization</h1>
             </div>
 
+            <div class="my-4 w-100" id="myInput1"></div>
+            <div class="my-4 w-100" id="myInput2"></div>
             <div class="my-4 w-100" id="myChart1"></div>
 
             <!--            <h2>Section title</h2>-->
@@ -74,9 +76,9 @@
     import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
 
     const main = new Runtime().module(notebook, name => {
-        if (name === "migration") return Inspector.into("#myChart1")();
-        // return new Inspector(document.querySelector("#myChart3"));
-        // });
-    });
+        if (name === "region") return Inspector.into("#myInput1")();
+        if (name === "migrationYear") return Inspector.into("#myInput2")();
+        if (name === "chart3") return Inspector.into("#myChart1")();
+    })
 </script>
 </html>
