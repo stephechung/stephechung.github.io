@@ -59,33 +59,22 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">DMV Migration Flow (2010-2019)</h1>
+                <h1 class="h2">Home</h1>
             </div>
 
-            <div class="my-4 w-100" id="myInput1"></div>
-            <div class="my-4 w-100" id="myInput2"></div>
-            <div class="my-4 w-100" id="myChart1"></div>
+            <p>This is the final project in collaboration with two real estate agents to visualize data from the MLS
+                database, inspired by <a href="">state-to-state migration trends</a>. Our goal was to create a tool that
+                make a wide variety of housing data easy to understand and interactive for clients interested in market
+                trends and housing data.</p>
 
-            <h2>Section title</h2>
-            <div class="table-responsive" id="myTable1">
+            <p>Created by <a href="https://stephechung.github.io">Stephanie Chung</a> and <a href="https://vcchatman.github.io">Vanessa Chatman</a></p>
+
+
 
         </main>
     </div>
 </div>
-</div>
 
 
 </body>
-
-<script type="module">
-    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-    import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
-
-    const main = new Runtime().module(notebook, name => {
-        if (name === "viewof region") return Inspector.into("#myInput1")();
-        if (name === "viewof migrationYear") return Inspector.into("#myInput2")();
-        if (name === "migration") return Inspector.into("#myChart1")();
-        // if (name === "map2") return Inspector.into("#myTable1")();
-    })
-</script>
 </html>
