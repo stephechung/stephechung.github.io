@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f25289da-4310-4f77-8fb9-2c9c92664f8b" name="Default Changelist" comment="draft complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dmv.css" beforeDir="false" afterPath="$PROJECT_DIR$/dmv.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/finance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/housing_stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing_stats.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/migration.html" beforeDir="false" afterPath="$PROJECT_DIR$/migration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ranking.html" beforeDir="false" afterPath="$PROJECT_DIR$/ranking.html" afterDir="false" />
@@ -45,7 +45,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.home.html">
+  <component name="RunManager" selected="JavaScript Debug.zipcode.html">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -63,8 +63,12 @@
     <configuration name="sales.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/sales.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="zipcode.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/zipcode.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.zipcode.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.sales.html" />
         <item itemvalue="JavaScript Debug.home.html" />

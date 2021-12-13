@@ -64,9 +64,16 @@
 
         <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
             <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-                <h1 class="h2">Distibution of Home Financing (2008-2021)</h1>
+                <h1 class="h2">Distribution of Home Financing (2008-2021)</h1>
             </div>
+
+            <h4>Financing Comparison</h4>
             <div class="my-4 w-100" id="myChart1"></div>
+
+            <div class="b-example-divider"></div>
+
+            <h4>County Comparison</h4>
+            <div class="my-4 w-100" id="myInput1"></div>
             <div class="my-4 w-100" id="myChart2"></div>
         </main>
 
@@ -79,7 +86,8 @@
     import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
 
     const main = new Runtime().module(notebook, name => {
-        if (name === "dmv_finance") return Inspector.into("#myChart1")();
+        if (name === "qwe") return Inspector.into("#myChart1")();
+        if (name === "viewof count") return Inspector.into("#myInput1")();
         if (name === "finance_distribution") return Inspector.into("#myChart2")();
     });
 </script>
