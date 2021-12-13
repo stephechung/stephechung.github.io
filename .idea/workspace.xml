@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25289da-4310-4f77-8fb9-2c9c92664f8b" name="Default Changelist" comment="draft complete">
+    <list default="true" id="f25289da-4310-4f77-8fb9-2c9c92664f8b" name="Default Changelist" comment="notes formatted">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/finance.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/housing_stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing_stats.html" afterDir="false" />
@@ -41,7 +41,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.zipcode.html">
+  <component name="RunManager" selected="JavaScript Debug.ranking.html">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -56,6 +56,9 @@
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="ranking.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/ranking.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="sales.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/sales.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -64,6 +67,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.ranking.html" />
         <item itemvalue="JavaScript Debug.zipcode.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.sales.html" />
@@ -88,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639348327215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="notes formatted">
+      <created>1639429540217</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639429540217</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +120,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first approach progress" />
     <MESSAGE value="draft complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="draft complete" />
+    <MESSAGE value="notes formatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="notes formatted" />
   </component>
 </project>
