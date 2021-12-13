@@ -88,7 +88,7 @@
 
     const main = new Runtime().module(notebook, name => {
         if (name === "viewof region") return Inspector.into("#myInput1")();
-        if (name === "viewof migrationYear") return Inspector.into("#myInput2")();
+        if (name === "viewof mYear") return Inspector.into("#myInput2")();
         if (name === "migration") return Inspector.into("#myChart1")();
     })
 </script>
