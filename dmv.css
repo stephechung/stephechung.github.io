@@ -180,3 +180,18 @@ body {
     padding-top:0;
     padding-bottom: 0;
 }
+
+.map-box{
+    /*height: 610px*/
+    /*width: 800px*/
+    width: 100%;
+}
+
+.map{
+    height: 610px;
+    width: 800px;
+}
+
+/*feature{*/
+/*    padding-top: 20px;*/
+/*}*/

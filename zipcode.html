@@ -75,7 +75,9 @@
                         <div class="my-4 w-100" id="myInput2"></div>
                         <div class="my-4 w-100" id="myInput3"></div>
                         <div class="my-4 w-100" id="myInput4"></div>
+                        <div class="map">
                         <div class="my-4 w-100" id="myChart1"></div>
+                        </div>
         </main>
     </div>
 </div>
@@ -87,7 +89,23 @@
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
 
+<!--<script>-->
+<!--    function resize(){-->
+<!--        var mapmargin = 50;-->
+<!--        if((window).width()>=980){-->
+<!--            ('#myChart1').css("width", ($(window).width() - mapmargin));-->
+<!--            ('#myChart1').css("margin-top",50);-->
+<!--        }else{-->
+<!--            ('#myChart1').css("width", ($(window).width() - (mapmargin+12)));-->
+<!--            ('#map').css("margin-top",-21);-->
+<!--        }-->
+
+<!--    }-->
+
+<!--</script>-->
+
 <script type="module">
+
     import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
     import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
 
@@ -97,6 +115,7 @@
         if (name === "viewof medianYear") return Inspector.into("#myInput3")();
         if (name === "viewof quarter") return Inspector.into("#myInput4")();
         if (name === "viewof medians") return Inspector.into("#myChart1")();
+        // resize();
     })
 </script>
 </html>
