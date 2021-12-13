@@ -68,13 +68,11 @@
                 <h1 class="h2">Zip Code Map</h1>
             </div>
 
-            <!--            <div class="my-4 w-100" id="myInput1"></div>-->
-            <!--            <div class="my-4 w-100" id="myInput2"></div>-->
-            <!--            <div class="my-4 w-100" id="myChart1"></div>-->
-
-            <!--            <h2>Section title</h2>-->
-            <!--            <div class="table-responsive" id="myTable1">-->
-
+                        <div class="my-4 w-100" id="myInput1"></div>
+                        <div class="my-4 w-100" id="myInput2"></div>
+                        <div class="my-4 w-100" id="myInput3"></div>
+                        <div class="my-4 w-100" id="myInput4"></div>
+                        <div class="my-4 w-100" id="myChart1"></div>
         </main>
     </div>
 </div>
@@ -87,10 +85,11 @@
     import notebook from "https://api.observablehq.com/d/459af424840de3c8.js?v=3";
 
     const main = new Runtime().module(notebook, name => {
-        // if (name === "viewof region") return Inspector.into("#myInput1")();
-        // if (name === "viewof migrationYear") return Inspector.into("#myInput2")();
-        // if (name === "migration") return Inspector.into("#myChart1")();
-        // if (name === "map2") return Inspector.into("#myTable1")();
+        if (name === "viewof heatmap") return Inspector.into("#myInput1")();
+        if (name === "viewof text") return Inspector.into("#myInput2")();
+        if (name === "viewof medianYear") return Inspector.into("#myInput3")();
+        if (name === "viewof quarter") return Inspector.into("#myInput4")();
+        if (name === "viewof medians") return Inspector.into("#myChart1")();
     })
 </script>
 </html>
