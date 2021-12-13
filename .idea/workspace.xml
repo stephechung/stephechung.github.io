@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25289da-4310-4f77-8fb9-2c9c92664f8b" name="Default Changelist" comment="notes formatted">
+    <list default="true" id="f25289da-4310-4f77-8fb9-2c9c92664f8b" name="Default Changelist" comment="final preso version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dmv.css" beforeDir="false" afterPath="$PROJECT_DIR$/dmv.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/finance.html" beforeDir="false" afterPath="$PROJECT_DIR$/finance.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/housing_stats.html" beforeDir="false" afterPath="$PROJECT_DIR$/housing_stats.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sales.html" beforeDir="false" afterPath="$PROJECT_DIR$/sales.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zipcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/zipcode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migration.html" beforeDir="false" afterPath="$PROJECT_DIR$/migration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +40,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ranking.html">
+  <component name="RunManager" selected="JavaScript Debug.migration.html">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -58,6 +55,9 @@
     <configuration name="home.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/home.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="migration.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/migration.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="ranking.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/stephechung.github.io/ranking.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -69,11 +69,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.migration.html" />
         <item itemvalue="JavaScript Debug.ranking.html" />
         <item itemvalue="JavaScript Debug.zipcode.html" />
         <item itemvalue="JavaScript Debug.home.html" />
         <item itemvalue="JavaScript Debug.sales.html" />
-        <item itemvalue="JavaScript Debug.home.html" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639429540217</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="final preso version">
+      <created>1639435195698</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639435195699</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
     <MESSAGE value="first approach progress" />
     <MESSAGE value="draft complete" />
     <MESSAGE value="notes formatted" />
-    <option name="LAST_COMMIT_MESSAGE" value="notes formatted" />
+    <MESSAGE value="final preso version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final preso version" />
   </component>
 </project>
